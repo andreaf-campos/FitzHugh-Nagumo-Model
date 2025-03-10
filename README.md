@@ -23,14 +23,14 @@ The repository includes:
 ### **Background**
 The **FitzHugh-Nagumo (FHN) model** is a two-variable simplification of the Hodgkin-Huxley model for neural excitability. It consists of a fast activator variable (membrane voltage) and a slow recovery variable (refractory process). The system is described by the equations:
 
-\[ \frac{du}{dt} = u - \frac{u^3}{3} - v + I \]
-\[ \frac{dv}{dt} = \epsilon (u + a - bv) \]
+**du/dt = u - (u³/3) - v + I**  
+**dv/dt = ε (u + a - bv)**
 
 where:
-- \( u \) represents the membrane potential,
-- \( v \) is a recovery variable,
-- \( I \) is an external stimulus,
-- \( \epsilon, a, b \) are model parameters controlling excitability.
+- **u** represents the membrane potential,
+- **v** is a recovery variable,
+- **I** is an external stimulus,
+- **ε, a, b** are model parameters controlling excitability.
 
 This model exhibits behaviors such as **stable equilibrium points, limit cycles, and excitability thresholds**, depending on the parameter settings.
 
