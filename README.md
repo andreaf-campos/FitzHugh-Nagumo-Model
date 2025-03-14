@@ -14,7 +14,7 @@
 This repository contains a **Julia-based computational analysis** of the **FitzHugh-Nagumo (FHN) model**, a simplified representation of neuronal excitability. The model is used to study the dynamics of excitable systems, such as action potential generation in neurons and cardiac cells.
 
 The repository includes:
-- A Jupyter Notebook (`.ipynb`) with code for simulating the FHN model under different parameter conditions.
+- A Jupyter Notebook (`.ipynb`) with code for simulating the FHN model under different parameter conditions. **Please download for full visualization.**
 - An HTML version of the notebook for easy viewing.
 - Both files have explanations mainly in English with some comments in Spanish.
 
